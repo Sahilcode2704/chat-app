@@ -3,6 +3,8 @@
 import { useState, useRef, useEffect } from 'react'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
+import { Switch } from '@/components/ui/switch'
+import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 
 export default function Chat() {
